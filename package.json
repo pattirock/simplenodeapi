@@ -1,0 +1,27 @@
+{
+  "name": "simplenodeapi",
+  "version": "1.0.0",
+  "description": "Simple Node.js Api",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pattirock/simplenodeapi.git"
+  },
+  "author": "Patti Rock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pattirock/simplenodeapi/issues"
+  },
+  "homepage": "https://github.com/pattirock/simplenodeapi#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  }
+}
